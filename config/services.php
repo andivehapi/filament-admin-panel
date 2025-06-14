@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'fahrschule_live' => [
+        'token' => env('FAHRSCHULE_LIVE_TOKEN'),
+        'base_url' => env('FAHRSCHULE_LIVE_BASE_URL'),
+    ],
+
 ];
